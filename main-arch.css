@@ -1,0 +1,452 @@
+﻿*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif; 
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.42;
+    background: #001821;
+    -webkit-fonts-smoothing: antialiased;
+    margin:0;
+}
+
+a {
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    font-weight: normal;
+}
+.wrapper {
+    display: flex;
+}
+
+
+.main-page-wrapper {
+    background: url("1.jpg") center top no-repeat, url("2.jpg") right bottom no-repeat;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1141px;
+    
+}
+
+.header {
+    position: relative;
+    width: 1141px;
+    height: 123.36px;
+    left: 0px;
+    top: 19px;
+    margin-bottom: 63px;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+}
+
+.menu {
+    position: absolute;
+    top: 11px;
+    left: 164px;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50.5px;
+}
+
+.menu__item:last-child {
+    margin: 0;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: #DA0100;
+}
+
+.contacts {
+    position: absolute;
+    font-style: normal;
+    text-align: right;
+    top: 5px;
+    right: 2px;
+}
+
+
+.contacts__phone {
+    font-size: 26px;
+    text-decoration: none;
+    line-height: 1
+}
+
+.contacts__workhours {
+    font-size: 13px;
+    text-decoration: underline;
+    line-height: 1.2
+}
+
+.hero__content {
+    position: relative;
+    width: 511px;
+    height: 196px;
+    margin-bottom: 385px;
+}
+
+.hero__title {
+    font-weight: bold;
+    font-size: 72px;
+    margin-bottom: 24px;
+    line-height: 1.39
+}
+
+.hero__slogan {
+    font-size: 18px;
+    margin-bottom: 47px;
+}
+
+.button {
+    background-color: #F5170E;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 35px;
+    line-height: 19px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 18px 40px;
+}
+
+.button:hover {
+    background-color: #DA0100;
+}
+
+.tours {
+    margin-bottom: 127px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.title--flame {
+    position: relative;
+    margin-bottom: 51px;
+}
+
+.title--flame:after {
+    position: absolute;
+    content: '';
+    width: 21px;
+    height: 28px;
+    left: 288px;
+    top: 12px;
+    background: url(./air-asia/images/flame.png);
+}
+
+.tours__item {
+    display: inline-block;
+    min-height: 450px;
+    border-radius: 5px;
+    background: #fff;
+    margin-right: 23px;
+    width: 362px;
+}
+
+.tours__item:last-child {
+    margin-right: 0;
+}
+
+.tours__content {
+    position: relative;
+    padding: 28px 22px;
+    color: #000000;
+}
+
+.tours__title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.tours__feature {
+    display: inline-block;
+    margin-bottom: 36px;
+}
+
+.tours__feature-icon {
+    position: absolute;
+}
+
+.tours__feature-icon--calendar {
+    left: 28px;
+}
+
+.tours__feature-icon--meal {
+    left: 182px;
+}
+
+.tours__feature-text {
+    position: absolute;
+    color: #666666;
+    line-height: 1.31;
+}
+
+.tours__feature-text--calendar {
+    top: 85px;
+    left: 66px;
+}
+
+.tours__feature-text--meal {
+    top: 85px;
+    left: 227px;
+}
+
+.tours__text {
+    font-size: 14px;
+    color: #303030;
+    margin-bottom: 38px;
+    line-height: 1.55;
+}
+
+.tours__image {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.button--light {
+    width: 135px;
+    color: #F5170E;
+    border: 1px solid #F5170E;
+    font-weight: bold;
+    font-size: 14px;
+    background: #fff;
+    padding: 19px 29px;
+}
+
+.button--light:hover {
+    background: #F5170E;
+    color: #fff;
+}
+
+.news {
+    margin-bottom: 53px;
+}
+
+.title--news {
+    margin-bottom: 49px;
+}
+
+.news__item {
+    position: relative;
+    display: inline-block;
+    min-height: 394px;
+    width: 555px;
+    vertical-align:top;
+    margin-right:22px;
+}
+.news__item:last-child {
+    margin-right:0
+}
+
+.news__image {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.news__article {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 49px 32px 12px 28px;
+    min-height: 190px;
+    line-height: 1.5;
+   
+}
+
+.news__date {
+    font-size: 14px;
+    margin-bottom: 14px;
+    margin-top:0;
+
+}
+
+.news__title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 3px;
+    line-height: 1.3;
+     
+}
+.news__text {
+    line-height: 1.5;
+}
+
+.pagination {
+    text-align: center;
+    margin-bottom: 145px;
+}
+
+.pagination__text, .pagination__list {
+    display: inline-block;
+}
+
+.pagination__text {
+    margin-right: 36px;
+}
+
+.pagination__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pagination__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    font-weight: bold;
+    border-radius: 50%;
+    text-decoration: none;
+    line-height: 32px;
+}
+
+.pagination__link:hover {
+    background: #fff;
+    color: #F5170E;
+}
+.pagination__link--active {
+    background: #fff;
+    color: #F5170E;
+}
+
+.about {
+    margin-bottom: 53px;
+}
+
+.about::before {
+    content: '';
+    display: block;
+    border-radius: 5px;
+    width: 488px;
+    height: 505px;
+    background: url(gates.jpg)center center/cover no-repeat;
+    position:absolute
+
+}
+.about__content {
+    position: relative;
+    display: inline-block;
+    background: url(mountains.jpg) center center/cover no-repeat;
+    border-radius: 5px;
+    overflow: hidden;
+    min-height: 454px;
+    width: 788px;
+    vertical-align: top;
+    margin-left: 351px;
+    margin-top: 98px;
+}
+
+.about__article {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0px 203px 66px 84px;
+    min-height: 140px;
+    color: #000;
+    line-height:1.69;
+}
+.title--dark {
+    margin-bottom:39px;
+}
+.about__text {
+    margin-bottom: 41px;
+}
+.button__about {
+    display:inline-block;
+}
+
+
+.footer {
+    height: 92.64px;
+    position: relative;
+    margin-bottom: 63px;
+    border-top: 1px solid rgb(255,255,255,.1);
+}
+
+.logo--footer {
+    position: absolute;
+    top: 50px;
+}
+.menu--footer {
+    position: absolute;
+    top: 59px;
+}
+.contacts--footer{
+    position: absolute;
+    top: 42px;
+}
+.contacts__text{
+    font-size: 11px;
+    line-height: 2.6;
+   color: #9A9A9A;
+}
+.social-network {
+position: absolute;
+top: 53px;
+right: 264px;
+}
+.social-network__item {
+    display: flex;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 6px;
+    padding: 0;
+    background-position: center;
+    
+}
+.social-network__item--icon-telegram {
+    background: url(./air-asia/images/telegram.png);
+    background-position: center;
+    
+}
+.social-network__item--icon-telegram:hover {
+    background: url(./air-asia/images/t.png);
+    background-position: center;
+}
+.social-network__item:last-child {
+    margin-right: 0;
+}
+.social-network__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+}
